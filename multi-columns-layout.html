@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>HTML Email: Multi Columns with Tables</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <style type="text/css">
+    /* CLIENT-SPECIFIC STYLES */
+    body,
+    table,
+    td,
+    a {
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    table,
+    td {
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    img {
+      -ms-interpolation-mode: bicubic;
+    }
+
+    /* RESET STYLES */
+    img {
+      border: 0;
+      height: auto;
+      line-height: 100%;
+      outline: none;
+      text-decoration: none;
+    }
+
+    table {
+      border-collapse: collapse !important;
+    }
+
+    body {
+      height: 100% !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 100% !important;
+    }
+
+    /* iOS BLUE LINKS */
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+
+    /* GMAIL BLUE LINKS */
+    u+#body a {
+      color: inherit;
+      text-decoration: none;
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit;
+      line-height: inherit;
+    }
+
+    /* SAMSUNG MAIL BLUE LINKS */
+    #MessageViewBody a {
+      color: inherit;
+      text-decoration: none;
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit;
+      line-height: inherit;
+    }
+
+    /* Universal styles for links and stuff */
+
+    /* Responsive styles */
+  </style>
+</head>
+
+<body id="body" style="margin: 0 !important; padding: 0 !important;">
+
+  <!-- Fluid Width Table: Main Container -->
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+      <td>
+
+        <!-- Fixed Width Table: Inner Container -->
+        <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="600">
+
+          <!-- Two Column -->
+          <tr>
+            <td>
+              <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td>
+                    <!-- Left Column -->
+                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="block" role="presentation" width="50%">
+                      <tr>
+                        <td style="padding: 20px; line-height: 24px;">
+                          <h2 style="font-size: 16px; margin: 0 0 20px 0;">Heading Time</h2>
+                          <p style="font-size: 14px; margin: 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae obcaecati
+                            illo atque impedit est dolores enim fuga, saepe recusandae consequuntur voluptatum aut alias, nam temporibus,
+                            provident cupiditate eligendi quis voluptas?</p>
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- Right Column -->
+                    <table align="right" border="0" cellpadding="0" cellspacing="0" class="block" role="presentation" width="50%">
+                      <tr>
+                        <td style="padding: 20px; line-height: 24px;">
+                          <h2 style="font-size: 16px; margin: 0 0 20px 0;">Heading Time</h2>
+                          <p style="font-size: 14px; margin: 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae obcaecati
+                            illo atque impedit est dolores enim fuga, saepe recusandae consequuntur voluptatum aut alias, nam temporibus,
+                            provident cupiditate eligendi quis voluptas?</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Three Column -->
+          <tr>
+            <td>
+              <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td>
+                    <!-- First Column -->
+                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="block" role="presentation" width="33%">
+                      <tr>
+                        <td style="padding: 20px; line-height: 24px;">
+                          <h2 style="font-size: 16px; margin: 0 0 20px 0;">Heading Time</h2>
+                          <p style="font-size: 14px; margin: 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae obcaecati
+                            illo atque impedit est dolores enim fuga, saepe recusandae consequuntur voluptatum aut alias, nam temporibus,
+                            provident cupiditate eligendi quis voluptas?</p>
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- Second Column -->
+                    <table align="right" border="0" cellpadding="0" cellspacing="0" class="block" role="presentation" width="33%">
+                      <tr>
+                        <td style="padding: 20px; line-height: 24px;">
+                          <h2 style="font-size: 16px; margin: 0 0 20px 0;">Heading Time</h2>
+                          <p style="font-size: 14px; margin: 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae obcaecati
+                            illo atque impedit est dolores enim fuga, saepe recusandae consequuntur voluptatum aut alias, nam temporibus,
+                            provident cupiditate eligendi quis voluptas?</p>
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- Second Column -->
+                    <table align="right" border="0" cellpadding="0" cellspacing="0" class="block" role="presentation" width="33%">
+                      <tr>
+                        <td style="padding: 20px; line-height: 24px;">
+                          <h2 style="font-size: 16px; margin: 0 0 20px 0;">Heading Time</h2>
+                          <p style="font-size: 14px; margin: 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae obcaecati
+                            illo atque impedit est dolores enim fuga, saepe recusandae consequuntur voluptatum aut alias, nam temporibus,
+                            provident cupiditate eligendi quis voluptas?</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+        </table>
+        <!-- End: Fixed Width Table: Inner Container -->
+
+      </td>
+    </tr>
+  </table>
+  <!-- End: Fluid Width Table: Main Container -->
+
+</body>
+
+</html>
